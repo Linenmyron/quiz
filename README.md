@@ -1,2 +1,2 @@
-# quiz
-a simple quiz
+# quiz game
+A complete and simple Quiz game

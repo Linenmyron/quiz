@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset = "UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<script defer src= "js/quiz.js"></script>
+	<title>The Amazing Quiz!</title>
+</head>
+<body> 
+
+<audio id="right">
+	<source src="audio/success.mp3" type="audio/mpeg">
+</audio>
+
+<audio id ="wrong">
+	<source src="audio/failure.mp3" type="audio/mpeg">
+</audio>
+
+<audio id= "endgamefail">
+	<source src="audio/endgamefail.mp3" type="audio/mpeg">
+</audio>
+
+<audio id= "endgamesuccess">
+	<source src="audio/endgamesuccess.mp3" type="audio/mpeg">
+</audio>
+
+<div id="gamebox" class="quizbox">
+	<h1>The Amazing Quiz!</h1>
+	<p id="score"> Score: 0</p>
+	<p id="question">Question will be displayed here</p> 
+	<button class="buttonClass" id="answer1" onclick="answer(1);">Answer1</button>
+	<button class="buttonClass" id="answer2" onclick="answer(2);">Answer2</button>
+	<button class="buttonClass" id="answer3" onclick="answer(3);">Answer3</button>
+</div>
+
+<!-- Här visas slutpoängen -->
+<div id="scorebox" class="quizbox">
+
+	<h1>FINAL SCORE:</h1>
+	<p id="finalscore"></p>
+	<p id="message"></p>
+	<button class="buttonClass" onclick="restart();">Restart</button>
+</div>
+
+</body>
+</html>

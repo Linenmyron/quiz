@@ -1,0 +1,42 @@
+body{
+	
+	font-family: sans-serif;
+	font-size: 14pt;
+	color: #111111;
+	text-shadow: 10px 0px 10px #B2E6FF;
+
+	background-image: url("../img/road.jpg");
+	background-size: 100%;
+}
+
+.buttonClass{
+	width: 200px;
+	font-size: 14pt;
+	font-weight: bold;
+	padding:10px; 
+	border: 1px solid #566963;
+	border-radius: 3%;
+	box-shadow: inset 0px 0px 3px 0px #91B8B3;
+	background: linear-gradient(to bottom, #555555 5%, #FFFFFF);
+}
+
+.buttonClass:hover{
+	background: linear-gradient(to bottom, #FFFFFF 5%, #555555);
+}
+
+.quizbox{
+	position: absolute;
+	top:calc(50% - 200px);
+	left:calc(50% - 200px);
+	height: 400px;
+	width: 400px;
+	background-color: rgba(200, 200, 200, 0.5);
+	border: 5px solid lightblue;
+	border-radius: 5%;
+	text-align: center;
+}
+
+ #scorebox{
+ 	display: none; /*döljer div:en*/
+
+ }
